@@ -18,3 +18,17 @@ public class MyClass {
 
        
         // Accessing the public
+		
+		// A subclass of Animal
+public class Dog extends Animal {
+
+    // Public method to access protected members
+    public void displayInfo() {
+        // Accessing the protected field from the superclass
+        System.out.println("Species: " + species);
+
+        // Calling the protected method from the superclass
+        makeSound();
+	}		
+#feature202 by ethan for reports modules in oct2023
+}
